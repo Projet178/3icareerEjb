@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+  <property name="hibernate.connection.password">admin</property>
+  <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/3icareer</property>
+  <property name="hibernate.connection.username">postgres</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+  <property name="hibernate.search.autoregister_listeners">false</property>
+  <property name="hibernate.validator.apply_to_ddl">false</property>
+  <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.show_sql">true</property>
+  <mapping class="beans.Administrateur"/>
+  <mapping class="beans.ExigerCompetence"/>
+  <mapping class="beans.Metier"/>
+  <mapping class="beans.ProposerPoste"/>
+  <mapping class="beans.Ville"/>
+  <mapping class="beans.Fichier"/>
+  <mapping class="beans.AcquerirCompetence"/>
+  <mapping class="beans.Experience"/>
+  <mapping class="beans.Cv"/>
+  <mapping class="beans.Etudiant"/>
+  <mapping class="beans.Datecontrat"/>
+  <mapping class="beans.Anneeetude"/>
+  <mapping class="beans.Entreprise"/>
+  <mapping class="beans.Expert"/>
+  <mapping class="beans.ParticiperEvenement"/>
+  <mapping class="beans.Evenement"/>
+  <mapping class="beans.Categoriecompetence"/>
+  <mapping class="beans.Suivreformation"/>
+  <mapping class="beans.Utilisateur"/>
+  <mapping class="beans.Formation"/>
+  <mapping class="beans.Detenirposte"/>
+  <mapping class="beans.PostulerOffre"/>
+  <mapping class="beans.Recruteur"/>
+  <mapping class="beans.Region"/>
+  <mapping class="beans.Competence"/>
+  <mapping class="beans.Typeposte"/>
+  <mapping class="beans.Offre"/>
+  <mapping class="beans.Domaine"/>
+  <mapping class="beans.OccuperMetier"/>
+ </session-factory>
+</hibernate-configuration>

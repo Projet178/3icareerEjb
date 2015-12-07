@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="public" match-name="acquerir_competence"/>
+  <table-filter match-schema="public" match-name="administrateur"/>
+  <table-filter match-schema="public" match-name="anneeetude"/>
+  <table-filter match-schema="public" match-name="categoriecompetence"/>
+  <table-filter match-schema="public" match-name="competence"/>
+  <table-filter match-schema="public" match-name="cv"/>
+  <table-filter match-schema="public" match-name="datecontrat"/>
+  <table-filter match-schema="public" match-name="detenirposte"/>
+  <table-filter match-schema="public" match-name="domaine"/>
+  <table-filter match-schema="public" match-name="entreprise"/>
+  <table-filter match-schema="public" match-name="etudiant"/>
+  <table-filter match-schema="public" match-name="evenement"/>
+  <table-filter match-schema="public" match-name="exiger_competence"/>
+  <table-filter match-schema="public" match-name="experience"/>
+  <table-filter match-schema="public" match-name="expert"/>
+  <table-filter match-schema="public" match-name="fichier"/>
+  <table-filter match-schema="public" match-name="formation"/>
+  <table-filter match-schema="public" match-name="metier"/>
+  <table-filter match-schema="public" match-name="occuper_metier"/>
+  <table-filter match-schema="public" match-name="offre"/>
+  <table-filter match-schema="public" match-name="participer_evenement"/>
+  <table-filter match-schema="public" match-name="postuler_offre"/>
+  <table-filter match-schema="public" match-name="proposer_poste"/>
+  <table-filter match-schema="public" match-name="recruteur"/>
+  <table-filter match-schema="public" match-name="region"/>
+  <table-filter match-schema="public" match-name="suivreformation"/>
+  <table-filter match-schema="public" match-name="typeposte"/>
+  <table-filter match-schema="public" match-name="utilisateur"/>
+  <table-filter match-schema="public" match-name="ville"/>
+</hibernate-reverse-engineering>
